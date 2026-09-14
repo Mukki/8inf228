@@ -128,7 +128,7 @@ Les réponses a ces questions sont des choix architecturaux de conception qui es
 
 Tout est dans le dépôt GitHub. **Il n'y a rien à déposer ailleurs.** Vous devez cependant m'ajouter dans votre projet.
 
- ### 5.1 Exemple de dépôt
+### 5.1 Exemple de dépôt
 
 ```
 root/
