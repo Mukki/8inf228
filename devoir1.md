@@ -18,15 +18,15 @@
 
 Vous êtes barista dans un petit café indépendant. Vous savez coder — c'est pour ça que le propriétaire est venu vous voir.
 
-> « On a des cartes en carton avec des tampons. Les clients les perdent. Moi je perds le compte. J'aimerais ça avoir ça dans un ordinateur. Tu penses que tu peux me faire quelque chose ? »
+> « On a des cartes en carton avec des étampes. Les clients les perdent. Moi je perds le compte. J'aimerais ça avoir ça dans un ordinateur. Tu penses que tu peux me faire quelque chose ? »
 
-Vous avez deux semaines et votre ordinateur. Le logiciel tournera en local **sur la machine du comptoir**, rien de plus. Il n'y a pas de serveur, pas de nuage, pas de client à part vous et le proprio.
+Vous avez deux semaines et votre ordinateur. Le logiciel tournera en local **sur la machine du comptoir (votre machine)**, rien de plus. Il n'y a pas de serveur, pas de nuage, pas de client à part vous et le proprio.
 
 ⚠️ **Avant de commencer**
 
 Ce devoir est le **premier d'une série** qui va durer toute la session. Le même dépôt Git, le même produit, qui grossit à chaque devoir : plus de fonctionnalités, plus d'utilisateurs, plus d'exigences.
 
-**Cela ne veut pas dire qu'il faut tout prévoir maintenant.** Au contraire : construisez ce qu'on vous demande **aujourd'hui**, simplement. Mais **notez ce que vous savez fragile** — le devoir 2 s'appuiera directement là-dessus.
+**Cela ne veut pas dire qu'il faut tout prévoir maintenant.** Au contraire : construisez ce qu'on vous demande **aujourd'hui**, en vous assurant de faire des choix judicieux d'implémentation.
 
 ---
 
@@ -61,7 +61,7 @@ Ces exigences sont **fermes**. Elles constituent le minimum attendu.
 1. **Trouver ou créer un client** — un barista pressé doit y arriver en quelques secondes.
 2. **Enregistrer un achat** — et, quand le client y a droit, lui donner son café gratuit.
 
-### 2.6 Hors périmètre — définitivement
+### 2.6 Hors périmètre
 
 > **Le système ne traite aucun paiement. Ni maintenant, ni dans les devoirs suivants.**
 
@@ -75,7 +75,7 @@ Si vous vous surprenez à écrire une classe `Payment`, arrêtez-vous et relisez
 
 L'énoncé ci-dessus est volontairement incomplet. Par exemple, ces trois questions n'ont **pas** de réponse dans ce document, et n'en auront pas si vous me les posez.
 
-Ce sont des questions d'implémentation. Il n'y a pas une bonne réponse : il y a des réponses **défendables** et des réponses **irréfléchies**. Vous devez trancher, implémenter votre choix, et le **justifier par écrit** (§6).
+Ce sont des questions d'implémentation. Il n'y a pas une bonne réponse : il y a des réponses **défendables** et des réponses **irréfléchies**. Vous devez trancher, implémenter votre choix, et le **justifier par écrit** dans votre documentation.
 
 ### Le onzième café gratuit et la carte prépayée : un seul mécanisme ou deux ?
 
@@ -112,7 +112,7 @@ Numéro de téléphone ? Courriel ? Nom ? Un code sur une carte physique ? Autre
 
 C'est un générateur de projets Django utilisé en industrie. Il produit une structure complète — configuration séparée par environnement, gestion des utilisateurs, outillage de qualité — au lieu du squelette minimal de `startproject`.
 
-**Pourquoi je le conseille :** vous n'aurez pas à réorganiser votre projet au devoir 3, quand les exigences deviendront professionnelles.
+**Pourquoi je le conseille :** vous n'aurez pas nécessairement à réorganiser votre projet lors des devoirs subséquent.
 **Pourquoi il n'est pas obligatoire :** il génère beaucoup de fichiers, dont certains ne vous serviront pas avant plusieurs semaines. Si cette abondance vous paralyse, partez de `startproject` — ce n'est pas une grave.
 
 ```bash
@@ -126,7 +126,9 @@ Les réponses a ces questions sont des choix architecturaux de conception qui es
 
 ## 5. Livraison
 
-Tout est dans le dépôt GitHub. **Il n'y a rien à déposer ailleurs.**
+Tout est dans le dépôt GitHub. **Il n'y a rien à déposer ailleurs.** Vous devez cependant m'ajouter dans votre projet.
+
+ ### 5.1 Exemple de dépôt
 
 ```
 root/
