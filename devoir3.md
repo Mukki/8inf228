@@ -140,7 +140,7 @@ Votre v2 tourne sur SQLite au premier café, mais je veux que vous utilisier Pos
 1. Je récupère votre dernière tag `v2.x.y`, je crée la base SQLite et je charge **vos données de démonstration de la v2**.
 2. Je note les soldes de quelques clients avec votre commande `python manage.py balances`.
 3. Je passe à votre dernière tag `v3.x.y` et je suis **à la lettre** votre procédure de migration (`docs/migration.md`) pour transférer cette base SQLite dans le PostgreSQL de vos conteneurs.
-4. Je relance `balances` dans les conteneurs. **Chaque solde doit être identique**, et toutes les transactions existantes doivent appartenir à *Rivière*.
+4. Je relance `balances` dans les conteneurs. **Chaque solde doit être identique**, et toutes les transactions existantes doivent appartenir au premier café.
 
 | # | Exigence |
 |---|---|
