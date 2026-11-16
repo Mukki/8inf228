@@ -6,3 +6,4 @@
 ## [Devoir 1](https://github.com/Mukki/8inf228/blob/main/devoir1.md)
 ## [Devoir 2](https://github.com/Mukki/8inf228/blob/main/devoir2.md)
 ## [Devoir 3](https://github.com/Mukki/8inf228/blob/main/devoir3.md)
+## [Devoir 4](https://github.com/Mukki/8inf228/blob/main/devoir4.md)
